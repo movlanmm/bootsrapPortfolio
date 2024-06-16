@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container d-flex align-items-center  py-2">
+            <a href="#" class="navbar-brand text-white fw-bold fs-3">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuItems" aria-controls="menuItems" aria-expanded="false" aria-label="Toggle Navigation">
+                Menu<i class="fa-solid fa-bars"></i>
+                </button>
+            <div class="collapse navbar-collapse " id="menuItems">
+                <ul class="navbar-nav d-flex list-unstyled ms-auto mb-0 gap-5">
+                    <li class="nav-item"><a href="#portfolio" class=" h6 fw-bold text-decoration-none">Portfolio</a></li>
+                    <li class="nav-item"><a href="#about" class=" h6 fw-bold text-decoration-none">About</a></li>
+                    <li class="nav-item"><a href="#contact" class=" h6 fw-bold text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header text-white ">
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <img src="avatar.svg" class="mb-5 w-25" style="width: 15rem;" >
+            <h1 class="fw-bold" style="font-size: 2.75rem;">START BOOTSTRAP</h1>
+            <div class="divider d-flex w-25 justify-content-between align-items-center my-3">
+                <div class="line rounded"></div>
+                <i class="fa-solid fa-star text-white fs-1"></i>
+                <div class="line rounded"></div>
+            </div>
+            <p class="fs-4">Graphic Artist - Web Designer - Illustrator</p>
+        </div>
+    </header>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="display-5 fw-bold text-uppercase text-center">Portfolio</h2>
+            <div class="divider d-flex w-25 justify-content-between align-items-center my-3 mx-auto">
+                <div class="line rounded bg-dark"></div>
+                <i class="fa-solid fa-star text-dark fs-1"></i>
+                <div class="line rounded bg-dark"></div>
+            </div>
+            <div class="row row-gap-5 d-flex flex-wrap">
+                <div class="col-md-6 col-lg-4">
+                    <img src="item1.png" class="w-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="item1.png" class="w-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="item1.png" class="w-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="item1.png" class="w-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="item1.png" class="w-100 rounded">
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <img src="item1.png" class="w-100 rounded">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container text-white">
+            <h2 class=" fs-1 text-uppercase text-center">About</h2>
+            <div class="divider d-flex w-25 justify-content-between align-items-center my-3 mx-auto">
+                <div class="line rounded "></div>
+                <i class="fa-solid fa-star fs-2"></i>
+                <div class="line rounded "></div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                        complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets
+                        for easy customization.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add
+                        your email address to the contact form to make it fully functional!</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-download me-1"></i>Free Download!</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+                <h2 class="display-5 fw-bold text-uppercase text-center">Contact Me</h2>
+                <div class="divider d-flex w-25 justify-content-between align-items-center my-3 mx-auto">
+                    <div class="line rounded bg-dark"></div>
+                    <i class="fa-solid fa-star text-dark fs-1"></i>
+                    <div class="line rounded bg-dark"></div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <form>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-0 border-bottom" id="name" placeholder="Full name">
+                                <label for="name">Full name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control border-0 border-bottom" id="email" placeholder="Email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="tel" class="form-control border-0 border-bottom" id="phone" placeholder="Phone">
+                                <label for="phone">Phone</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea type="text" class="form-control border-0 border-bottom" id="text" placeholder="Message" style="height: 10rem;"></textarea>
+                                <label for="text">Message</label>
+                            </div> 
+                           <button class="btn send btn-lg">Send</button>
+                        </form>
+                    </div>
+                </div>
+    </section>
+
+    <footer class="text-white py-5">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                    <h4 class="mb-4">LOCATION</h4>
+                    <p>2215 John Daniel Drive <br>
+                        Clark, MO 65243</p>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                    <h4 class="mb-4">AROUND THE WEB</h4>
+                    <a href="#" class="btn btn-outline-light btn-lg mx-1 rounded-5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-lg mx-1 rounded-5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-lg mx-1 rounded-5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-lg  mx-1 rounded-5"><i class="fa-brands fa-facebook"></i></a>
+                
+                </div>
+                <div class="col-lg-4 text-center">
+                    <h4 class="mb-4">ABOUT FREELANCER</h4>
+                    <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#" class="footer-link">Start Bootstrap</a> .</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright text-white py-3">
+        <div class="container text-center">
+            <small>Copyright © Your Website 2023</small>
+        </div>
+    </div>
+
+
+
+
+
+
+
+  
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
